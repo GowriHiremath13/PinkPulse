@@ -1,0 +1,53 @@
+
+/* Project phases */
+.project-phase {
+  margin: 10px 0;
+  padding: 9px;
+  border: 1px solid #3d2b3b;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.phase-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 9px;
+  border: 0;
+  border-radius: 7px;
+  background: #281b29;
+  color: #f5c0d8;
+  text-align: left;
+  cursor: pointer;
+}
+
+.phase-heading:hover {
+  background: #352137;
+}
+
+.phase-heading .task-checkbox {
+  flex: 0 0 auto;
+  pointer-events: none;
+}
+
+.phase-title {
+  flex: 1;
+  min-width: 0;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.phase-count {
+  color: #b69daf;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.phase-heading.phase-complete .phase-title {
+  color: #f28bb9;
+}
+
+.project-phase .project-step {
+  margin-left: 8px;
+}
